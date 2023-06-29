@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main h1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.ninja {
+  height: 7rem;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: float 25s linear infinite;
+}
+
+.ninja img {
+  height: 100%;
+  border-radius: 100%;
+}
+
+@keyframes float {
+  0% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+    opacity: 1;
+	}
+
+	12.5% {
+		transform: translate(120vw,-120%) rotateZ(20deg);
+	}
+
+	25% {
+		transform: translate(-200%,50vh) scale(1.75) rotateZ(-20deg);
+	}
+
+	37.5% {
+		transform: translate(-200%,-120%) rotateZ(-40deg);
+    opacity: .5;
+	}
+
+	50% {
+		transform: translate(100vw,50vh) rotateZ(0deg);
+	}
+
+	62.5% {
+		transform: translate(20vw,100vh) rotateZ(20deg);
+	}
+
+	75% {
+		transform: translate(200%,100vh) rotateZ(20deg);
+    opacity: .25;
+	}
+
+	87.5% {
+		transform: translate(50vw,-200%) scale(1.75) rotateZ(20deg);
+	}
+
+	100% {
+		transform: translate(-200%,110vh) rotateZ(0deg);
+    opacity: 1;
+	}
+}

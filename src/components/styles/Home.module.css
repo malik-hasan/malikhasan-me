@@ -1,0 +1,70 @@
+.main {
+  margin: 15%;
+  /* color: #FFCAEC; */
+  display: flex;
+  gap: 5rem;
+}
+
+.main h1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.ninja {
+  height: 7rem;
+}
+
+.ninja img {
+  height: 100%;
+  border-radius: 100%;
+}
+
+.ninja img:hover {
+  opacity: 80%;
+}
+
+.spin {
+  animation: spin 1s;
+  opacity: 100% !important;
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.text {
+  display: inline;
+}
+
+.text p {
+  display: flex;
+  gap: .5rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.credera {
+  height: 1rem;
+  background-color: #FFCAEC;
+  padding: 3%;
+  border-radius: 5%;
+}
+
+.credera:hover {
+  opacity: 80%
+}
+
+.credera img {
+  height: 100%;
+  width: 95%;
+  display: block;
+  margin: auto;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
