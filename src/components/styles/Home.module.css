@@ -1,8 +1,18 @@
 .main {
-  margin: 15%;
-  /* color: #FFCAEC; */
   display: flex;
-  gap: 5rem;
+  padding: 15% 15% 0% 15%;
+}
+
+@media screen and (min-width: 1211px) {
+  .main {
+    gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .main {
+    flex-direction: column;
+  }
 }
 
 .main h1 {
@@ -65,12 +75,7 @@
   to {transform:rotate(360deg);}
 }
 
-.text {
-  display: inline;
-}
-
 .text p {
-  display: flex;
   gap: .5rem;
   font-weight: 500;
   font-size: 1.25rem;
@@ -78,9 +83,12 @@
 
 .credera {
   height: 1rem;
+  width: 5.5rem;
   background-color: #FFCAEC;
-  padding: 3%;
+  padding: .25%;
   border-radius: 5%;
+  margin: 0 .25rem;
+  display: inline-block;
 }
 
 .credera:hover {

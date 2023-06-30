@@ -11,7 +11,6 @@ const OuterSpace = props => {
   return (
     <>
       <div className={`${classes.container} ${!props.error && classes.space}`}>
-      {/* <img styles={{'object-fit': 'cover'}} src={space} alt='Outer Space' /> */}
         <div className={classes.ninja}>
           <img src={ninja} alt='Sad Ninja' />
         </div>

@@ -3,7 +3,7 @@
   bottom: 0;
   right: 1rem;
   display: flex;
-  gap: .5rem;
+  gap: .25rem;
   font-size: smaller;
   opacity: 75%;
 }
