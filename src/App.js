@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Layout from "./components/Layout";
 import Home from './components/Home'
-import NoPage from "./components/NoPage";
+import OuterSpace from "./components/OuterSpace";
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="*" element={<NoPage />} />
+          <Route path="outer-space" element={<OuterSpace />} />
+          <Route path="*" element={<OuterSpace error={true} />} />
         </Route>
       </Routes>
     </BrowserRouter>

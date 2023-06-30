@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 
 import CustomSocialIcon from '../ui/CustomSocialIcon';
 import ImageCredit from '../ui/ImageCredit';
@@ -7,6 +8,7 @@ import classes from './styles/Home.module.css'
 
 import ninja from '../assets/code-ninja.jpg';
 import credera from '../assets/credera.png';
+import rocket from '../assets/rocket.png';
 
 const Home = () => {
   const [spin, setSpin] = useState(false);
@@ -14,16 +16,23 @@ const Home = () => {
   return (
     <>
       <section className={classes.main}>
-        <div className={classes.ninja}>
-          <img 
-            className={spin ? classes.spin : ''} 
-            src={ninja} alt="Code Ninja" 
-            onClick={() => setSpin(true)} 
-            onAnimationEnd={() => setSpin(false)} 
-          />
+        <div className={classes.column}>
+          <div className={classes.ninja}>
+            <img 
+              className={spin && classes.spin} 
+              src={ninja} alt="Code Ninja" 
+              onClick={() => setSpin(true)} 
+              onAnimationEnd={() => setSpin(false)} 
+            />
+          </div>
+          <Link to='/outer-space'>
+            <div className={classes.rocket}>
+              <img src={rocket} alt='Send ninja to space' />
+            </div>
+          </Link>
         </div>
         <div className={classes.text}>
-          <h1>Malik Hasan</h1>
+          <h1 onClick={() => setSpin(true)}>Malik Hasan</h1>
           <p>Jack-of-all-trades full-stack developer, AWS cloud engineer, linguist</p>
           <p>Currently a Tech Solutions Consultant at
             <a href='https://credera.com/' target="_blank">

@@ -10,6 +10,17 @@
   font-size: 2.5rem;
 }
 
+.main h1:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .ninja {
   height: 7rem;
 }
@@ -21,6 +32,27 @@
 
 .ninja img:hover {
   opacity: 80%;
+  cursor: pointer;
+}
+
+.rocket {
+  margin: 1rem;
+  padding: .5rem;
+  width: 2rem;
+  border-radius: 100%;
+  background-color: #FFCAEC;
+}
+
+.rocket img {
+  height: 90%;
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.rocket:hover {
+  opacity: 80%;
+  cursor: pointer;
 }
 
 .spin {
