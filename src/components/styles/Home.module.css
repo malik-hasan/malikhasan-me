@@ -43,7 +43,7 @@ display: flex;
 }
 
 @media (hover: hover) {
-.ninja img:hover {
+  .ninja img:hover {
     opacity: 80%;
     cursor: pointer;
   }
