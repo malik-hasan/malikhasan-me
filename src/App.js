@@ -4,6 +4,8 @@ import Layout from "./components/Layout";
 import Home from './components/Home'
 import OuterSpace from "./components/OuterSpace";
 
+import './App.css'
+
 function App() {
   return (
     <BrowserRouter>

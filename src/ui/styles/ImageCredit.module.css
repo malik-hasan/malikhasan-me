@@ -1,7 +1,6 @@
 .credit {
-  position: absolute;
-  bottom: 0;
-  right: 1rem;
+  float: right;
+  margin-right: 1rem;
   display: flex;
   gap: .25rem;
   font-size: smaller;
