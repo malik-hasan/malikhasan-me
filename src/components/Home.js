@@ -48,7 +48,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <ImageCredit url="https://www.freepik.com/free-vector/cute-ninja-working-laptop-cartoon-vector-icon-illustration-people-technology-icon-isolated-flat_26259265.htm#query=ninja%20cartoon&position=0&from_view=keyword&track=ais" />
+      <footer>
+        <ImageCredit url="https://www.freepik.com/free-vector/cute-ninja-working-laptop-cartoon-vector-icon-illustration-people-technology-icon-isolated-flat_26259265.htm#query=ninja%20cartoon&position=0&from_view=keyword&track=ais" />
+      </footer>
     </>
   );
 }

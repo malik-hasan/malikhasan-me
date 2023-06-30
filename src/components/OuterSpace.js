@@ -21,7 +21,9 @@ const OuterSpace = props => {
           </div>
         </Link>
       </div>
-      <ImageCredit url="https://www.freepik.com/free-vector/cute-ninja-with-kunai-cartoon-flat-cartoon-style_12873500.htm#query=ninja%20cartoon&position=6&from_view=keyword&track=ais#position=6&query=ninja%20cartoon" />
+      <footer>
+        <ImageCredit url="https://www.freepik.com/free-vector/cute-ninja-with-kunai-cartoon-flat-cartoon-style_12873500.htm#query=ninja%20cartoon&position=6&from_view=keyword&track=ais#position=6&query=ninja%20cartoon" />
+      </footer>
     </>
   )
 }
