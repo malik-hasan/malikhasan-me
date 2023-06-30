@@ -12,6 +12,8 @@
   color: #FFCAEC;
 }
 
-.credit a:hover {
-  opacity: 75%;
+@media (hover: hover) {
+  .credit a:hover {
+    opacity: 75%;
+  }
 }
