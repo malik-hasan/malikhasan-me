@@ -1,14 +1,14 @@
 .credit {
   float: right;
   margin-right: 1rem;
-  display: flex;
-  gap: .25rem;
+  display: block;
   font-size: smaller;
   opacity: 75%;
 }
 
 .credit a {
   color: #FFCAEC;
+  padding-right: .25rem;
 }
 
 @media (hover: hover) {
