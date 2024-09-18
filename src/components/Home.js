@@ -34,7 +34,7 @@ const Home = () => {
         <div className={classes.text}>
           <h1 onClick={() => setSpin(true)}>Malik Hasan</h1>
           <p>Full-stack mobile developer, AWS cloud engineer, linguist</p>
-          <p>Currently a Senior Tech Consultant specializing in Mobile at
+          <p>Currently a Senior Tech Consultant specializing in Mobile and Cloud at
             <a href='https://credera.com/' target="_blank">
               <div className={classes.credera}>
                 <img src={credera} alt="Credera" />
